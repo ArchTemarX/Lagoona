@@ -1,24 +1,24 @@
 @font-face {
   font-family: "Muller";
   font-style: normal;
-  src: url(/fonts/MullerRegular.woff2) format(woff2);
-  src: url(/fonts/MullerRegular.woff) format(woff);
+  src: url(../fonts/MullerRegular.woff2) format(woff2);
+  src: url(../fonts/MullerRegular.woff) format(woff);
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Muller";
   font-style: normal;
-  src: url(/fonts/MullerMedium.woff2) format(woff2);
-  src: url(/fonts/MullerMedium.woff) format(woff);
+  src: url(../fonts/MullerMedium.woff2) format(woff2);
+  src: url(../fonts/MullerMedium.woff) format(woff);
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Muller";
   font-style: normal;
-  src: url(/fonts/MullerLight.woff2) format(woff2);
-  src: url(/fonts/MullerLight.woff) format(woff);
+  src: url(../fonts/MullerLight.woff2) format(woff2);
+  src: url(../fonts/MullerLight.woff) format(woff);
   font-weight: 300;
 
 }
@@ -26,8 +26,8 @@
 @font-face {
   font-family: "Muller";
   font-style: normal;
-  src: url(/fonts/MullerBold.woff2) format(woff2);
-  src: url(/fonts/MullerBold.woff) format(woff);
+  src: url(../fonts/MullerBold.woff2) format(woff2);
+  src: url(../fonts/MullerBold.woff) format(woff);
   font-weight: 700;
 }
 
@@ -192,14 +192,14 @@ label {
   font-size: 16px;
   line-height: 16px;
   color: #CC9933;
-  background: url(/images/Vector.svg) no-repeat;
+  background: url(../images/Vector.svg) no-repeat;
   transition: transform .3s ease-in-out, color .3s ease-in-out, border .3s ease-in-out, background .3s ease-in-out;
 }
 
 .header__account-link:hover {
   color: var(--hover-color, #F0BF5F);
   transform: scale(1.1);
-  background: url(/images/Vector-hover.svg) no-repeat;
+  background: url(../images/Vector-hover.svg) no-repeat;
 }
 
 .header__account-link:focus {
@@ -290,17 +290,17 @@ label {
 }
 
 .hero__item_mald {
-  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/images/Rectangle\ 15.jpg);
+  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../images/Rectangle\ 15.jpg);
 }
 
 .hero__item_creete {
-  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/images/Rectangle\ 14.jpg);
+  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../images/Rectangle\ 14.jpg);
 }
 
 .hero__item_gigant {
   flex: 1 1 50%;
   padding-top: 212px;
-  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(/images/33\ 1.jpg);
+  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../images/33\ 1.jpg);
 }
 
 .hero__item-heading {
@@ -337,7 +337,7 @@ label {
   padding-right: 15px;
   font-size: 16px;
   line-height: 16px;
-  background: url(/images/Rectangle\ 2.svg) no-repeat right center;
+  background: url(../images/Rectangle2.svg) no-repeat right center;
 }
 
 .hero__more-link:focus {
@@ -383,19 +383,19 @@ label {
 }
 
 .services__list-item_vine {
-  background-image: url(/images/10.jpg);
+  background-image: url(../images/10.jpg);
 }
 
 .services__list-item_table {
-  background-image: url(/images/15.jpg);
+  background-image: url(../images/15.jpg);
 }
 
 .services__list-item_pool {
-  background-image: url(/images/12.jpg);
+  background-image: url(../images/12.jpg);
 }
 
 .services__list-item_cars {
-  background-image: url(/images/carlo-d-agnolo-aFxSh_l4fbY-unsplash.jpg);
+  background-image: url(../images/carlo-d-agnolo-aFxSh_l4fbY-unsplash.jpg);
 }
 
 .services__link {
@@ -473,35 +473,35 @@ label {
 }
 
 .benefits__item-logo_bathub {
-  background-image: url(/images/bathtub.svg);
+  background-image: url(../images/bathtub.svg);
 }
 
 .benefits__item-logo_hanger {
-  background-image: url(/images/hanger.svg);
+  background-image: url(../images/hanger.svg);
 }
 
 .benefits__item-logo_heating {
-  background-image: url(/images/heating.svg);
+  background-image: url(../images/heating.svg);
 }
 
 .benefits__item-logo_key {
-  background-image: url(/images/hotel-key.svg);
+  background-image: url(../images/hotel-key.svg);
 }
 
 .benefits__item-logo_parking {
-  background-image: url(/images/parking.svg);
+  background-image: url(../images/parking.svg);
 }
 
 .benefits__item-logo_reception {
-  background-image: url(/images/reception.svg);
+  background-image: url(../images/reception.svg);
 }
 
 .benefits__item-logo_security {
-  background-image: url(/images/security-box.svg);
+  background-image: url(../images/security-box.svg);
 }
 
 .benefits__item-logo_swimming {
-  background-image: url(/images/swimming-pool.svg);
+  background-image: url(../images/swimming-pool.svg);
 }
 
 /* Placement */
@@ -581,14 +581,14 @@ label {
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 27px;
-  background: url(/images/41.jpg) no-repeat;
+  background: url(../images/41.jpg) no-repeat;
   background-size: cover;
 }
 
 .placement___link-all {
   display: inline-block;
   padding-right: 16px;
-  background: url(/images/Rectangle\ 2_white.svg) no-repeat right center;
+  background: url(../images/Rectangle2_white.svg) no-repeat right center;
   font-weight: 500;
   font-size: 20px;
   line-height: 200%;
@@ -675,7 +675,7 @@ label {
   padding: 20px 45px 45px 45px;
   background-color: #fff;
   border-radius: 15px;
-  background-image: url(/images/contacts__foto.jpg);
+  background-image: url(../images/contacts__foto.jpg);
   background-repeat: no-repeat;
   background-size: 653px 528px;
   background-position: center right 45px;
@@ -771,7 +771,7 @@ label {
   height: 341px;
   padding: 45px;
   background-color: #333;
-  background-image: url(/images/footer-logo.svg);
+  background-image: url(../images/footer-logo.svg);
   background-repeat: no-repeat;
   background-position: 739px 112px;
   border-radius: 15px;
